@@ -8,6 +8,4 @@ libraryDependencies ++= Seq(
   cache
 )
 
-libraryDependencies += "org.springframework" % "spring-core" % "4.0.3.RELEASE"
-
 play.Project.playScalaSettings

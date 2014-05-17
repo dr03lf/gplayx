@@ -1,0 +1,11 @@
+@(message: String, uploadedGpxTracks: List[String])(implicit session: play.api.mvc.Session)
+
+@main("GPX-Tracker") {
+
+    <ul>
+    @for(gpxTrack <- uploadedGpxTracks) {
+        <li>@gpxTrack</li>
+    }
+    </ul>
+
+}
